@@ -1,0 +1,10 @@
+d_model = 512
+n_heads = 16
+layers = 8
+vocab_size = 10000
+max_seq_len = 256
+batchSize = 8
+learningRate = 1e-4
+numEpochs = 1
+
+35583760 parameters

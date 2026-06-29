@@ -1,0 +1,1095 @@
+ 
+ "
+ "A
+ "H
+ "I
+ "M
+ "N
+ "T
+ "The
+ "W
+ '
+ *
+ A
+ Al
+ And
+ Ar
+ Arthur
+ As
+ At
+ B
+ But
+ C
+ Cor
+ Count
+ D
+ De
+ Delaw
+ Dr.
+ Duncan
+ E
+ F
+ G
+ God
+ H
+ Hark
+ Haw
+ Hawkey
+ He
+ Hels
+ Helsing
+ Heyward
+ His
+ Huron
+ I
+ If
+ In
+ Ind
+ Indian
+ It
+ J
+ Jonathan
+ L
+ Luc
+ Lucy
+ M
+ Magu
+ Magua
+ Mina
+ Moh
+ N
+ O
+ P
+ Pro
+ Professor
+ R
+ S
+ Se
+ She
+ T
+ Th
+ The
+ Then
+ There
+ They
+ This
+ U
+ Uncas
+ V
+ Van
+ W
+ We
+ Wh
+ When
+ You
+ _
+ a
+ ab
+ about
+ ac
+ acc
+ act
+ ad
+ add
+ adv
+ after
+ ag
+ again
+ against
+ air
+ al
+ all
+ along
+ alread
+ already
+ am
+ among
+ an
+ and
+ and,
+ another
+ answ
+ any
+ ap
+ app
+ appe
+ ar
+ are
+ arm
+ around
+ as
+ ask
+ asked
+ ass
+ at
+ att
+ aw
+ away
+ b
+ back
+ be
+ bec
+ been
+ before
+ beg
+ began
+ being
+ bel
+ belie
+ bet
+ better
+ between
+ bl
+ blood
+ bo
+ bod
+ bot
+ both
+ br
+ bra
+ bre
+ bro
+ but
+ by
+ c
+ ca
+ call
+ came
+ can
+ car
+ care
+ ch
+ char
+ che
+ chief
+ child
+ cl
+ close
+ co
+ com
+ come
+ comm
+ comp
+ compan
+ con
+ conf
+ cons
+ cont
+ contin
+ continu
+ could
+ count
+ cour
+ cr
+ cur
+ d
+ dang
+ danger
+ dark
+ day
+ de
+ dead
+ dear
+ death
+ deep
+ del
+ des
+ di
+ did
+ diff
+ direct
+ dis
+ dist
+ do
+ don
+ done
+ door
+ dou
+ down
+ dra
+ e
+ each
+ ear
+ earth
+ eff
+ em
+ en
+ end
+ enem
+ ent
+ ev
+ even
+ ever
+ every
+ evid
+ ex
+ exc
+ exp
+ ey
+ eyes
+ f
+ fa
+ face
+ fall
+ far
+ father
+ fe
+ fear
+ feel
+ feet
+ fell
+ felt
+ few
+ find
+ fir
+ fire
+ first
+ fl
+ fo
+ follow
+ for
+ fore
+ form
+ found
+ fr
+ fri
+ friend
+ from
+ full
+ g
+ gave
+ get
+ gi
+ give
+ gl
+ go
+ good
+ got
+ gr
+ gra
+ great
+ gu
+ h
+ ha
+ had
+ hand
+ hands
+ happ
+ hard
+ has
+ have
+ he
+ head
+ hear
+ heard
+ heart
+ heav
+ hel
+ help
+ her
+ here
+ him
+ him,
+ him.
+ himself
+ his
+ ho
+ hou
+ hour
+ how
+ however,
+ if
+ im
+ imp
+ in
+ ind
+ inst
+ instant
+ int
+ inter
+ into
+ is
+ it
+ it,
+ it.
+ its
+ j
+ just
+ k
+ ke
+ keep
+ kn
+ knew
+ know
+ l
+ la
+ last
+ lay
+ le
+ left
+ let
+ li
+ lif
+ life
+ light
+ like
+ little
+ lo
+ long
+ look
+ looked
+ love
+ low
+ m
+ mad
+ made
+ make
+ man
+ many
+ may
+ me
+ me,
+ me.
+ men
+ might
+ min
+ mind
+ mo
+ mom
+ moment
+ mor
+ more
+ morning
+ most
+ move
+ much
+ must
+ my
+ myself
+ n
+ nat
+ ne
+ near
+ need
+ never
+ new
+ night
+ no
+ nor
+ not
+ nothing
+ now
+ o
+ ob
+ occ
+ of
+ off
+ old
+ on
+ once
+ one
+ only
+ op
+ open
+ or
+ ord
+ other
+ our
+ out
+ over
+ own
+ p
+ pa
+ part
+ pass
+ passed
+ pe
+ peop
+ per
+ pl
+ pla
+ place
+ po
+ poor
+ poss
+ pow
+ power
+ pr
+ pre
+ pres
+ pro
+ pur
+ put
+ qu
+ quick
+ quite
+ r
+ ra
+ re
+ read
+ red
+ reg
+ rel
+ rem
+ rep
+ res
+ rest
+ ret
+ returned
+ ri
+ rif
+ right
+ ro
+ rock
+ room
+ round
+ s
+ sa
+ said
+ said,
+ same
+ sat
+ sav
+ saw
+ say
+ sc
+ scout
+ scout,
+ se
+ see
+ seem
+ seemed
+ seen
+ ser
+ set
+ sh
+ shall
+ she
+ short
+ should
+ sign
+ sil
+ sim
+ sing
+ sk
+ sl
+ sleep
+ sm
+ so
+ some
+ somet
+ something
+ soon
+ sort
+ sound
+ sp
+ spe
+ speak
+ spoke
+ st
+ start
+ ste
+ still
+ stood
+ str
+ stre
+ stru
+ su
+ sub
+ such
+ sudden
+ suff
+ sun
+ supp
+ sur
+ sw
+ swe
+ sweet
+ t
+ take
+ te
+ tell
+ ter
+ th
+ than
+ that
+ the
+ their
+ them
+ them,
+ then
+ there
+ these
+ they
+ thing
+ things
+ think
+ this
+ those
+ though
+ thought
+ thr
+ through
+ till
+ tim
+ time
+ to
+ to-
+ together
+ told
+ too
+ took
+ towards
+ tr
+ tra
+ tre
+ tri
+ turn
+ turned
+ tw
+ two
+ u
+ un
+ under
+ unt
+ until
+ up
+ upon
+ us
+ v
+ very
+ vo
+ voice
+ w
+ wait
+ want
+ war
+ warri
+ warrior
+ was
+ wat
+ way
+ we
+ well
+ went
+ were
+ wh
+ what
+ whe
+ when
+ where
+ whi
+ which
+ while
+ white
+ who
+ whole
+ whose
+ wild
+ will
+ wind
+ with
+ within
+ without
+ wom
+ wood
+ wor
+ word
+ work
+ would
+ wr
+ y
+ yet
+ you
+ you,
+ young
+ your
+!
+!"
+"
+#
+$
+%
+&
+'
+'s
+'t
+(
+)
+*
++
+,
+,"
+-
+--
+.
+."
+..
+/
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+:
+:--
+;
+<
+=
+>
+?
+?"
+@
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+You
+Z
+[
+\
+]
+^
+_
+_--
+`
+a
+a,
+ab
+able
+ac
+ach
+ack
+act
+ad
+ag
+age
+agu
+ain
+ained
+aint
+ait
+ak
+ake
+aking
+al
+alk
+all
+ally
+alm
+am
+ame
+amp
+an
+anc
+ance
+ance,
+and
+ang
+ange
+ank
+ans
+ant
+ap
+ar
+ard
+are
+ared
+ark
+art
+ary
+as
+ase
+ass
+ast
+at
+ate
+ated
+ath
+athan
+ather
+ating
+ation
+ation,
+att
+atter
+au
+av
+ave
+aw
+ay
+b
+be
+ber
+ble
+bt
+c
+can
+cc
+ce
+ced
+ceed
+cept
+cess
+ch
+ched
+ck
+cl
+co
+ct
+d
+dden
+den
+e
+e,
+e.
+ect
+ed
+ed,
+ed.
+el
+ell
+em
+en
+en,
+ence
+end
+ened
+ener
+ens
+ent
+ent,
+ently
+ep
+er
+er,
+er.
+ere
+ered
+ering
+ers
+ert
+ertain
+es
+es,
+es.
+ess
+ess,
+est
+et
+ever,
+ew
+f
+fess
+fessor
+ff
+for
+fore
+ft
+fter
+ful
+g
+ge
+get
+gether
+gg
+gh
+ght
+h
+h,
+hat
+he
+hed
+hen
+her
+here
+hes
+hing
+i
+ial
+ian
+ib
+ible
+ic
+ican
+ice
+ick
+ict
+id
+ide
+ie
+ied
+ief
+ience
+ient
+ier
+ies
+iet
+if
+iff
+ift
+ig
+igh
+ight
+ign
+il
+ild
+ile
+ill
+ily
+im
+in
+ina
+ince
+ind
+ine
+ined
+ing
+ing,
+ing.
+ings
+ink
+int
+ion
+ion,
+ion.
+ions
+ious
+ip
+ir
+ire
+irect
+irit
+is
+ise
+ised
+ish
+ished
+iss
+ist
+it
+ite
+ith
+ither
+ition
+itt
+ittle
+ity
+iv
+ive
+ix
+j
+ject
+k
+ke
+key
+l
+la
+law
+ld
+le
+le,
+led
+leep
+less
+lf
+ling
+ll
+llow
+ls
+lt
+ly
+ly,
+ly.
+m
+man
+mb
+med
+ment
+mo
+most
+n
+nc
+ncas
+nd
+nder
+ne
+ner
+ness
+ng
+ning
+not
+nt
+o
+ock
+od
+oh
+oke
+ol
+om
+ome
+omet
+on
+on,
+onathan
+ond
+one
+ong
+ons
+ont
+oo
+ood
+ook
+op
+or
+ord
+ore
+orr
+ors
+ort
+os
+ose
+osed
+oss
+ot
+other
+ou
+oud
+ough
+ought
+ould
+ound
+ount
+our
+ous
+out
+ove
+ow
+ow,
+own
+ows
+p
+pe
+pect
+per
+pl
+pp
+pped
+ps
+pt
+q
+qu
+r
+r.
+ra
+re
+read
+reat
+red
+ree
+ren
+res
+ress
+rew
+ri
+rible
+ried
+ro
+ros
+ross
+ru
+ry
+s
+s,
+s.
+s;
+se
+se,
+sel
+self
+selves
+st
+sw
+t
+ted
+ter
+th
+the
+ther
+thing
+thur
+ting
+u
+ual
+uc
+uch
+ud
+ue
+ul
+ull
+ult
+um
+un
+uncan
+und
+ur
+ure
+urn
+urned
+uron
+us
+ust
+ut
+v
+ve
+ved
+ven
+ver
+ver,
+very
+ves
+ving
+w
+ward
+wards
+way
+we
+ween
+wn
+x
+y
+y,
+y.
+ying
+yward
+z
+{
+|
+}
+~

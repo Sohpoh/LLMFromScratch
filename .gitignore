@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+build/
+dist/
+wheels/
+*.egg-info
+
+# Secrets
+.env
+
+# Generated artifacts
+*.zip
+*.npy
+data.txt
