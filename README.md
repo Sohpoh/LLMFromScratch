@@ -1,43 +1,41 @@
 # LLM From Scratch
 
-A module-by-module implementation of a GPT-style large language model, built from the ground up using PyTorch.
+A ground-up implementation of a GPT-style large language model in PyTorch, covering everything from basic primitives to a working RAG pipeline.
 
-## Overview
+## What's Here
 
-Each module builds on the last, starting from basic neural network primitives and ending with a working RAG pipeline.
+| Folder | Description |
+|--------|-------------|
+| `linear_layer` | Custom linear layer |
+| `bpe_tokenizer` | BPE tokenizer training |
+| `embeddings` | BPE tokenizer inference + custom embedding layer |
+| `attention` | Multi-head attention |
+| `gpt_architecture` | Full GPT model (transformer decoder blocks) |
+| `training_pipeline` | Training loop with cosine LR schedule |
+| `text_generation` | Sampling strategies (top-k, top-p, repetition penalties) |
+| `rag` | Retrieval-Augmented Generation |
 
-| Module | Topic |
-|--------|-------|
-| Module 1 | Custom linear layer |
-| Module 2 | BPE tokenizer training |
-| Module 3 | BPE tokenizer inference + custom embedding layer |
-| Module 4 | Multi-head attention (MHA) |
-| Module 5 | Full GPT model (transformer decoder blocks) |
-| Module 6 | Training loop with cosine LR schedule |
-| Module 7 | Sampling strategies (top-k, top-p, repetition penalties) |
-| Module 8 | Retrieval-Augmented Generation (RAG) |
+## Breakdown
 
-## Module Breakdown
-
-### Module 1 — Linear Layer
+### Linear Layer
 Implements `CustomLinear`, a `torch.nn.Module` equivalent to `torch.nn.Linear` with manually defined weight and bias parameters.
 
-### Module 2 — BPE Tokenizer Training
-Implements Byte Pair Encoding (BPE) from scratch. Reads raw text, iteratively merges the most frequent character pairs, and saves a `vocab.txt` and `merges.json`. Ties in merge order are broken lexicographically.
+### BPE Tokenizer
+Implements Byte Pair Encoding from scratch. Reads raw text, iteratively merges the most frequent character pairs, and saves a `vocab.txt` and `merges.json`. Ties in merge order are broken lexicographically.
 
-### Module 3 — Tokenizer Inference + Embeddings
+### Embeddings
 - `Tokenizer`: loads a trained vocab/merges and implements `encode(string) → [int]` and `decode([int]) → string`.
-- `CustomEmbedding`: a `torch.nn.Module` that wraps a learnable embedding table.
+- `CustomEmbedding`: a `torch.nn.Module` wrapping a learnable embedding table.
 
-### Module 4 — Multi-Head Attention
+### Attention
 Implements `CustomMHA` with a fused QKV projection (`W_qkv` of shape `(3D, D)`) and output projection (`W_o`). Splits heads, computes scaled dot-product attention, and recombines.
 
-### Module 5 — GPT Model
-Assembles the full architecture:
+### GPT Architecture
+Assembles the full model:
 - `TransformerDecoderBlock`: pre-norm MHA + two-layer MLP with residual connections and dropout.
 - `GPTModel`: token + position embeddings → N decoder blocks → layer norm → linear projection to vocab logits.
 
-### Module 6 — Training
+### Training Pipeline
 `train_model.py` trains the GPT model on a pre-tokenized dataset (`training_data.npy`). Uses AdamW with a cosine learning rate schedule and linear warmup. Saves a loss curve to `loss_curve.png` and model weights to `model_weights.pt`.
 
 **Dependencies** (managed with `uv`):
@@ -45,7 +43,7 @@ Assembles the full architecture:
 torch, datasets, transformers, matplotlib, tqdm
 ```
 
-### Module 7 — Sampling
+### Text Generation
 `Sampler` implements:
 - **top-k** and **top-p** (nucleus) sampling
 - **Frequency penalty**: scales logits by how often each token has appeared
@@ -53,7 +51,7 @@ torch, datasets, transformers, matplotlib, tqdm
 
 Includes `example_use_with_gpt2.py` which applies the custom sampler to GPT-2 via Hugging Face.
 
-### Module 8 — RAG
+### RAG
 `SimpleRAGNews` builds a minimal retrieval-augmented generation pipeline:
 1. Loads 100 BBC News articles from the `permutans/fineweb-bbc-news` dataset.
 2. Embeds them with `ibm-granite/granite-embedding-30m-english`.
@@ -63,26 +61,26 @@ Requires a `HFTOKEN` environment variable (set in `.env`).
 
 ## Running
 
-Each module is self-contained. Example for Module 3:
+Each folder is self-contained. Example for the embeddings:
 ```bash
-cd Module3
+cd embeddings
 python tokenizer.py
 ```
 
-For Module 6 (training), first build the dataset:
+For the training pipeline, first build the dataset:
 ```bash
-cd Module6
+cd training_pipeline
 python download_data.py
 python construct_dataset.py
 python train_model.py
 ```
 
-For Module 8 (RAG), add your Hugging Face token to `Module8/.env`:
+For RAG, add your Hugging Face token to `rag/.env`:
 ```
 HFTOKEN=your_token_here
 ```
 Then:
 ```bash
-cd Module8
+cd rag
 python simple_rag.py
 ```
